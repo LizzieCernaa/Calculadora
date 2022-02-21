@@ -73,7 +73,7 @@ namespace Calculadora
             }
             else if (a == 5) 
             {
-                Console.WriteLine ("No es posible realizar ningun procedimien");   
+                Console.WriteLine ("No es posible realizar ningun procedimiento");   
             }
 
 
