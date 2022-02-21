@@ -33,7 +33,7 @@ namespace Calculadora
                 double D = B + C;
                 Console.WriteLine("El resultado de la suma es:" + D);
             }
-            else if (A == 2)
+           else if (A == 2)
             {
                     Console.WriteLine("Ingrese el numero 1:");
                     double B = double.Parse(Console.ReadLine());
@@ -41,9 +41,21 @@ namespace Calculadora
                     Console.WriteLine("Ingrese el numero 2:");
                     double C = double.Parse(Console.ReadLine());
 
-                    double D = B + C;
-                    Console.WriteLine(D);
+                    double D = B - C;
+                    Console.WriteLine("El resultado de la resta es:" + D);
                
+            }
+            if (A == 3) 
+            {
+                Console.WriteLine("Ingrese el numero 1:");
+                double B = double.Parse(Console.ReadLine());
+
+                Console.WriteLine("Ingrese el numero 2:");
+                double C = double.Parse(Console.ReadLine());
+
+                double D = B * C;
+                Console.WriteLine("El resultado de la multiplicacion es:" + D);
+
             }
             Console. ReadKey();
         }
