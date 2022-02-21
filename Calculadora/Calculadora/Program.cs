@@ -45,7 +45,7 @@ namespace Calculadora
                     Console.WriteLine("El resultado de la resta es:" + D);
                
             }
-            if (A == 3) 
+            if (A == 3)
             {
                 Console.WriteLine("Ingrese el numero 1:");
                 double B = double.Parse(Console.ReadLine());
@@ -57,6 +57,24 @@ namespace Calculadora
                 Console.WriteLine("El resultado de la multiplicacion es:" + D);
 
             }
+            else if (A == 4)
+            {
+                Console.WriteLine("Ingrese el numero 1:");
+                double B = double.Parse(Console.ReadLine());
+
+                Console.WriteLine("Ingrese el numero 2:");
+                double C = double.Parse(Console.ReadLine());
+
+                double D = B / C;
+                Console.WriteLine("El resultado de la division es:" + D);
+
+            }
+            else if (A == 5) 
+            {
+                Console.WriteLine ("No es posible realizar ningun procedimien");   
+            }
+
+
             Console. ReadKey();
         }
     }
